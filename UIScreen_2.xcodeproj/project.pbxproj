@@ -16,6 +16,11 @@
 		6F02F7A82AAF649B0093DD1C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F02F7A72AAF649B0093DD1C /* TabBarController.swift */; };
 		6F02F7AA2AAF65AE0093DD1C /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F02F7A92AAF65AE0093DD1C /* ReportsViewController.swift */; };
 		6F02F7AC2AAF65B80093DD1C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F02F7AB2AAF65B80093DD1C /* ProfileViewController.swift */; };
+		6F02F7B02AAF68BE0093DD1C /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F02F7AF2AAF68BE0093DD1C /* Inter-SemiBold.ttf */; };
+		6F02F7B22AAF68D70093DD1C /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F02F7B12AAF68D70093DD1C /* Inter-Medium.ttf */; };
+		6F02F7B52AAF69090093DD1C /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F02F7B32AAF69080093DD1C /* Inter-Light.ttf */; };
+		6F02F7B62AAF69090093DD1C /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F02F7B42AAF69090093DD1C /* Inter-Regular.ttf */; };
+		6F02F7B82AAF69150093DD1C /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F02F7B72AAF69150093DD1C /* Inter-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		6F02F7A72AAF649B0093DD1C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		6F02F7A92AAF65AE0093DD1C /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
 		6F02F7AB2AAF65B80093DD1C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6F02F7AF2AAF68BE0093DD1C /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		6F02F7B12AAF68D70093DD1C /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		6F02F7B32AAF69080093DD1C /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		6F02F7B42AAF69090093DD1C /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		6F02F7B72AAF69150093DD1C /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +72,8 @@
 		6F02F7922AAF63300093DD1C /* UIScreen_2 */ = {
 			isa = PBXGroup;
 			children = (
-				6F02F7932AAF63300093DD1C /* AppDelegate.swift */,
-				6F02F7952AAF63300093DD1C /* SceneDelegate.swift */,
+				6F02F7AE2AAF68740093DD1C /* Applications */,
+				6F02F7AD2AAF686C0093DD1C /* Fonts */,
 				6F02F7A72AAF649B0093DD1C /* TabBarController.swift */,
 				6F02F7972AAF63300093DD1C /* MainViewController.swift */,
 				6F02F7A92AAF65AE0093DD1C /* ReportsViewController.swift */,
@@ -74,6 +84,27 @@
 				6F02F7A12AAF63320093DD1C /* Info.plist */,
 			);
 			path = UIScreen_2;
+			sourceTree = "<group>";
+		};
+		6F02F7AD2AAF686C0093DD1C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6F02F7B72AAF69150093DD1C /* Inter-Bold.ttf */,
+				6F02F7AF2AAF68BE0093DD1C /* Inter-SemiBold.ttf */,
+				6F02F7B32AAF69080093DD1C /* Inter-Light.ttf */,
+				6F02F7B42AAF69090093DD1C /* Inter-Regular.ttf */,
+				6F02F7B12AAF68D70093DD1C /* Inter-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6F02F7AE2AAF68740093DD1C /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				6F02F7932AAF63300093DD1C /* AppDelegate.swift */,
+				6F02F7952AAF63300093DD1C /* SceneDelegate.swift */,
+			);
+			path = Applications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +165,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F02F7B02AAF68BE0093DD1C /* Inter-SemiBold.ttf in Resources */,
 				6F02F7A02AAF63320093DD1C /* LaunchScreen.storyboard in Resources */,
+				6F02F7B82AAF69150093DD1C /* Inter-Bold.ttf in Resources */,
 				6F02F79D2AAF63320093DD1C /* Assets.xcassets in Resources */,
+				6F02F7B22AAF68D70093DD1C /* Inter-Medium.ttf in Resources */,
+				6F02F7B52AAF69090093DD1C /* Inter-Light.ttf in Resources */,
 				6F02F79B2AAF63300093DD1C /* Main.storyboard in Resources */,
+				6F02F7B62AAF69090093DD1C /* Inter-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
