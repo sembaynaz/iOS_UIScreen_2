@@ -45,6 +45,13 @@ class TabBarController: UITabBarController {
     
     private func setTabBarAppearance() {
         tabBar.tintColor = .black
+        tabBar.barTintColor = .red
+//        UIColor(
+//            red: 242/255,
+//            green: 242/255,
+//            blue: 242/255,
+//            alpha: 0.9
+//        )
         tabBar.alpha = 1
         tabBar.items?[0].selectedImage = UIImage(named: "mainSelected")?.withRenderingMode(.alwaysOriginal)
         
@@ -61,7 +68,6 @@ class TabBarController: UITabBarController {
             width: tabBar.frame.size.width,
             height: 1
         )
-        
         tabBar.addSubview(lineView)
     }
 }
