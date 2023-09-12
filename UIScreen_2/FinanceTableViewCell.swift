@@ -38,6 +38,7 @@ class FinanceTableViewCell: UITableViewCell {
             blue: 0,
             alpha: 0.5
         )
+        
         label.font = UIFont(
             name: "Inter-Light",
             size: 14
@@ -88,7 +89,7 @@ class FinanceTableViewCell: UITableViewCell {
         expensesLabel.text = finance.expensesLabel
     }
 }
-    // Constraints
+
 extension FinanceTableViewCell {
     func configureView() {
         configImage()
