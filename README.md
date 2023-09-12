@@ -12,13 +12,43 @@ I demonstrate in photos run this project in iPhone 14 pro and iPhone SE
 ## Installation
 No secondary libraries were used here, only **UIKit**. You can download the project from GitHub as a zip file and then open it in the **xCode** application. (No additional installations are required)
 
-## Usage
-On this project you can see three screens that are all connected via TabBarController. The **generateTabBar()** function adds view controllers to the tab bar and immediately edit their images, which will be displayed in the tab bar and the names. The function **setTabBarAppearance()** - configures the tabbar itself, if you look I added a line, selected images of tab bar are black.
+# Usage
 
-Also you can see from the 3 screens I added the design to only one (this is the first screen). Here you can learn how to add a custom cell, add it to your tableView. 
-You can see how to add header and footer to the tableView inside the **configureTableView()** function inside the MainViewController file.
+In the "UIScreens" project, you will find a tab-based user interface consisting of three interconnected screens managed by a `UITabBarController`. Here's how you can make the most of this project:
 
-All used photos are added to assets. The font family Inter was used for the text.
+### Tab Bar Configuration
+
+The `TabBarController.swift` file is responsible for setting up the tab bar and its appearance:
+
+- The `generateTabBar()` function adds view controllers to the tab bar. In this project, it includes the "Главная" (Main), "Отчеты" (Reports), and "Профиль" (Profile) screens. You can easily extend or modify these screens to suit your application's needs.
+
+- The `generateVC(viewController:title:image:)` function configures each view controller with a title and an image to be displayed in the tab bar.
+
+- The `setTabBarAppearance()` function customizes the tab bar's appearance. It sets the tab bar's tint color to black and adds a horizontal line at the bottom. Additionally, it changes the selected image of the "Главная" tab to a different image when selected.
+
+### Main Screen
+
+The "Главная" (Main) screen is the first tab and provides an example of a designed screen. Here's what you can learn from it:
+
+- Custom Cell: You can see how to create a custom table view cell using the `FinanceTableViewCell.swift` file. This cell contains an icon, a title, expenses information, and a description.
+
+- Header and Footer: Inside the `MainViewController.swift` file, you can find the `configureTableView()` function, which demonstrates how to add header and footer views to a table view. The header and footer views are used to create additional visual elements in the table view.
+
+- Data Population: The `setDataArray()` function populates an array of `Finance` objects, which are used to display data in the table view cells. You can replace this data with your own.
+
+- Button Action: The `viewAllButton` has a touch-down action (`touched()`) that prints a message. You can extend this action to perform any desired functionality.
+
+### Reports and Profile Screens
+
+While the "Отчеты" (Reports) and "Профиль" (Profile) screens are included in the project, they are not fully implemented. You can build upon these screens to add features such as detailed cryptocurrency reports and user profile management. Consider this project a starting point for extending the functionality of these screens.
+
+### Additional Details
+
+- The project uses the "Inter" font family for text elements.
+
+- All images used in the project are added to the asset catalog.
+
+By exploring this project, you can gain insights into building a tab-based iOS application, creating custom table view cells, and configuring tab bar controllers. Feel free to use and extend this project as a foundation for your own iOS app development.
 
 ## Contribution
 Contributions to this project are welcome!
