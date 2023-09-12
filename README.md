@@ -12,7 +12,7 @@ I demonstrate in photos run this project in iPhone 14 pro and iPhone SE
 ## Installation
 No secondary libraries were used here, only **UIKit**. You can download the project from GitHub as a zip file and then open it in the **xCode** application. (No additional installations are required)
 
-# Usage
+## Usage
 
 In the "UIScreens" project, you will find a tab-based user interface consisting of three interconnected screens managed by a `UITabBarController`. Here's how you can make the most of this project:
 
